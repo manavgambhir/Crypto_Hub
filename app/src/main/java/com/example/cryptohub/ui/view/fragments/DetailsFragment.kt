@@ -1,5 +1,6 @@
 package com.example.cryptohub.fragments
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.util.Log
 import androidx.fragment.app.Fragment
@@ -8,6 +9,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.appcompat.widget.AppCompatButton
+import androidx.core.content.ContextCompat
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.bumptech.glide.Glide
@@ -133,6 +135,7 @@ class DetailsFragment : Fragment() {
                 oneWeek.id -> loadChartData(it,"W",item,fourHour,oneMonth,oneDay,oneHour,fifteenMin)
                 oneMonth.id -> loadChartData(it,"M",item,fourHour,oneWeek,oneDay,oneHour,fifteenMin)
             }
+//            (it as? AppCompatButton)?.setTextColor(ContextCompat.getColor(requireContext(), R.color.white))
         }
 
         fifteenMin.setOnClickListener(clickListener)
@@ -172,9 +175,13 @@ class DetailsFragment : Fragment() {
     private fun disableBtn(oneDay: AppCompatButton, oneMonth: AppCompatButton, oneWeek: AppCompatButton, fourHour: AppCompatButton, oneHour: AppCompatButton) {
         oneDay.background = null
         oneMonth.background = null
+//        oneMonth.setTextColor(com.google.android.material.R.attr.colorOnPrimaryFixed)
         oneWeek.background = null
+//        oneWeek.setTextColor(com.google.android.material.R.attr.colorOnPrimaryFixed)
         fourHour.background = null
+//        fourHour.setTextColor(com.google.android.material.R.attr.colorOnPrimaryFixed)
         oneHour.background = null
+//        oneHour.setTextColor(com.google.android.material.R.attr.colorOnPrimaryFixed)
     }
 
 

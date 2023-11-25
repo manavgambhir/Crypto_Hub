@@ -21,7 +21,7 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:elevation="12dp"
-        app:backgroundColor="@color/grey_900"
+        app:backgroundColor="?attr/colorOnSecondary"
         app:iconMargin="8dp"
         app:iconSize="24dp"
         app:indicatorRadius="8dp"
