@@ -12,6 +12,8 @@ import com.example.cryptohub.data.models.CryptoCurrencyListItem
 import com.example.cryptohub.databinding.CurrencyItemLayoutBinding
 import com.example.cryptohub.fragments.HomeFragmentDirections
 import com.example.cryptohub.fragments.MarketFragmentDirections
+import com.example.cryptohub.fragments.WatchlistFragment
+import com.example.cryptohub.fragments.WatchlistFragmentDirections
 
 class MarketAdapter(private var context: Context, var list: List<CryptoCurrencyListItem>, var type: String):RecyclerView.Adapter<MarketAdapter.MarketViewHolder>() {
 
@@ -63,6 +65,11 @@ class MarketAdapter(private var context: Context, var list: List<CryptoCurrencyL
             else if(type == "market"){
                 findNavController(it).navigate(
                     MarketFragmentDirections.actionMarketFragmentToDetailsFragment(item)
+                )
+            }
+            else{
+                findNavController(it).navigate(
+                    WatchlistFragmentDirections.actionWatchlistFragmentToDetailsFragment(item)
                 )
             }
         }
