@@ -14,13 +14,22 @@ Crypto Hub is an application designed for crypto enthusiasts. Users can explore 
     <td align="center">
       <img src="https://github.com/manavgambhir/Crypto_Hub/assets/97420824/1ae2bd9a-5f6a-413a-97c6-47b15caf4269" alt="DetailsScreen" width="250"/>
     </td>
-  </tr>
-  <tr>
     <td align="center">
       <img src="https://github.com/manavgambhir/Crypto_Hub/assets/97420824/c6712304-c6ef-4f13-8ce3-6c3fd267da1e" alt="MarketScreen" width="250"/>
     </td>
+  </tr>
+  <tr>
     <td align="center">
       <img src="https://github.com/manavgambhir/Crypto_Hub/assets/97420824/cd0c3dfd-78bb-4619-a4f7-dffdf3541ecc" alt="SearchScreen" width="250"/>
+    </td>
+    <td align="center">
+      <img src="https://github.com/manavgambhir/Crypto_Hub/assets/97420824/f458bd3d-ce2d-4f32-99c8-3d87f7ffc50c" alt="StarItem" width="250"/>
+    </td>
+    <td align="center">
+      <img src="https://github.com/manavgambhir/Crypto_Hub/assets/97420824/9c23ea84-a5a0-4847-abab-e5d371962242" alt="watchListScreen" width="250"/>
+    </td>
+    <td align="center">
+      <img src="https://github.com/manavgambhir/Crypto_Hub/assets/97420824/4e26d112-de4c-49db-803f-75426636af75" alt="LightModeScreen" width="250"/>
     </td>
   </tr>
 </table>
@@ -30,6 +39,7 @@ Crypto Hub is an application designed for crypto enthusiasts. Users can explore 
 - View trading charts for different time intervals (1 week, 1 month, 4 hours, 1 hour, or 15 minutes).
 - Keep track of the Top Gainers and Top Losers.
 - Search for a specific cryptocurrency using searchbar and check its detail.
+- Watchlist to star specific cryptocurrency items for quick access and convenient tracking.
 - Utilizes MVVM(Model View View Model) architecture for scalablity.
 - Supports both Dark mode and Light mode for user preference.
 # Technologies Used
